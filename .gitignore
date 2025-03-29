@@ -1,0 +1,6 @@
+# git ignores
+vcpkg_installed/
+build/
+*.log
+vcpkg-lib-example-config.cmake
+

@@ -1,0 +1,36 @@
+{
+    "name"         : "vcpkg-lbi-example",
+    "version"      : "0.1.0",
+    "description"  : "C++ library Example managed with vcpkg",
+    "homepage"     : "git@",
+    "builtin-baseline": "e40d24cb149dd138e7c11d490834fa2c81298b32",
+    "dependencies" : [
+        {
+            "name"      : "fmt",
+            "version>=" : "11.0.2"
+        },
+        {
+            "name"      : "gtest",
+            "version>=" : "1.16.0"
+        },
+        {
+            "name" : "vcpkg-cmake",
+            "host" : true
+        },
+        {
+            "name" : "vcpkg-cmake-config",
+            "host" : true
+        }
+    ],
+    "overrides": [
+        { 
+            "name"    : "fmt",
+            "version" : "11.0.2"
+        },
+        {
+            "name"    : "gtest",
+            "version" : "1.16.0"
+        }
+    ]
+}
+
